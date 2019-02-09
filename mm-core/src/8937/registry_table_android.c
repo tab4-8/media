@@ -254,6 +254,7 @@ omx_core_cb_type core[] =
       "audio_decoder.evrc"
     }
   },
+/*
   {
     "OMX.qcom.audio.decoder.wma",
     NULL, // Create instance function
@@ -265,7 +266,7 @@ omx_core_cb_type core[] =
      NULL
     },
     NULL,   // Shared object library handle
-    "libOmxWmaDec.so",
+    "libOmxdDec.so",
     {
      "audio_decoder.wma"
     }
@@ -302,6 +303,7 @@ omx_core_cb_type core[] =
      "audio_decoder.wma"
     }
   },
+*/
   {
     "OMX.qcom.audio.decoder.amrwbplus",
     NULL,   // Create instance function
